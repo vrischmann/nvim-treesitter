@@ -16,6 +16,9 @@
 (attribute
   value: (quoted_attribute_value) @string)
 
+(spread_attributes
+  name: (identifier) @variable)
+
 [
   (element_text)
   (style_element_text)
